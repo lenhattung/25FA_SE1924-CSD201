@@ -30,6 +30,7 @@ public class Main {
         }
 
         listSt.traverse();
-
+        
+//      MyList2 listSt2 = new MyList2();
     }
 }
