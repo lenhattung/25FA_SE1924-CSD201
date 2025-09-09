@@ -37,4 +37,11 @@ public class Student {
         this.gpa = gpa;
     }
     // Alt + Shift + F
+
+    @Override
+    public String toString() {
+        return "Student{" + "id=" + id + ", fullName=" + fullName + ", gpa=" + gpa + '}';
+    }
+    
+    
 }
