@@ -31,3 +31,8 @@ Nội dung workshop ngày 26/09/2025 (Hội Trường)
 * Hướng dẫn trình bày đề cương nghiên cứu trên Overleaf.
 * Giới thiệu AiTA Lab và các dự án đang triển khai.
 * Giới thiệu các giảng viên và lĩnh vực nghiên cứu.
+
+## Công cụ lập trình
+
+* Netbeans 13
+* JDK 8
