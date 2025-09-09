@@ -16,9 +16,9 @@
 
 ## Đánh giá môn học:
 
-Category	Type	Part	Weight
-Progress test (PT)	quiz	2	20.00%	
-Assignment (AS)	on-going	2	20.00%	
-Practical Exam	practical exam	1	30.00%
-Final exam	Final exam	1	30.00%
+* Category	Type	Part	Weight
+* Progress test (PT)	quiz	2	20.00%	
+* Assignment (AS)	on-going	2	20.00%	
+* Practical Exam	practical exam	1	30.00%
+* Final exam	Final exam	1	30.00%
 
