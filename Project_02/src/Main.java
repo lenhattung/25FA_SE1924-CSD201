@@ -22,22 +22,25 @@ public class Main {
         n2.setNext(n3);
 
         //ArrayList<Student> list = new ArrayList<>();
-
         MyList listSt = new MyList();
-        listSt.add(new Student("00", "Nguyen Van A", 10));
-        for (int i = 0; i < 35; i++) {
-            listSt.add(new Student("ST" + i, "Nguyen Van " + i, i));
+        listSt.addLast(new Student("00", "Nguyen Van A", 10));
+        for (int i = 0; i < 1; i++) {
+            listSt.addLast(new Student("ST" + i, "Nguyen Van " + i, i));
         }
 
-        //listSt.traverse();
-        
-//      MyList2 listSt2 = new MyList2();
+        listSt.traverse();
+        System.out.println(listSt.size());
+        System.out.println("=====");
+        listSt.delete(5);
+        listSt.traverse();
 
-        MyList2 danhSachTotNghiep = new MyList2();
-        danhSachTotNghiep.add(new Student("01", "Le Nhat Tung", 9));
-        danhSachTotNghiep.add(new Student("02", "Nguyen Van A", 5));
-        danhSachTotNghiep.add(new Student("03", "Nguyen Van B", 4));
-        
-        danhSachTotNghiep.traverse();
+        System.out.println("=====");
+        listSt.delete(0);
+        listSt.traverse();
+
+        System.out.println("=====");
+        listSt.delete(listSt.size()-1);
+        listSt.traverse();
+//     
     }
 }
