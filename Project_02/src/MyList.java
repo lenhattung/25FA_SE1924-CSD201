@@ -141,7 +141,6 @@ public class MyList {
         // Tra ve so luong sinh vien co ten 
         // co chua tu khoa la gia tri cua name;
         // goi y dung ham: indexOf
-        
         return -1;
     }
 }
