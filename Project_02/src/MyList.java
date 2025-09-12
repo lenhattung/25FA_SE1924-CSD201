@@ -119,4 +119,10 @@ public class MyList {
     public int size() {
         return this.count;
     }
+    
+    public int find(String studentId){
+        // Tra ve vi tri cua ban sinh vien co studentId
+        // Neu khong tim thay tra ve -1
+        return -1;
+    }
 }
