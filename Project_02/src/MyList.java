@@ -125,4 +125,22 @@ public class MyList {
         // Neu khong tim thay tra ve -1
         return -1;
     }
+    
+    
+    
+    public void add(Student st, int position){
+        // Thêm st vao vi tri: position
+    }
+    
+    public int countPass(double value){
+        // Dem so luong sinh vien co gpa> = value
+        
+        return 0;
+    }
+    
+    public int countByName(String name){
+        // Tra ve so luong sinh vien co ten 
+        // co chua tu khoa la gia tri cua name;
+        return -1;
+    }
 }
