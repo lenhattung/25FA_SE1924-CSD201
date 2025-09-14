@@ -36,3 +36,8 @@ Nội dung workshop ngày 26/09/2025 (Hội Trường)
 
 * Netbeans 13
 * JDK 8
+
+## Videos
+
+* Slot 1: https://youtu.be/ZcqKJ6DCs-U
+* Slot 2: https://youtu.be/KctpbvUouBo
