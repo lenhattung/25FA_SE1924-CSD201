@@ -30,5 +30,6 @@ public class Main {
         // test queue rỗng
         System.out.println("\n>>> thử dequeue khi queue rỗng:");
         System.out.println(queue.dequeue()); // sẽ ra null
+        
     }
 }
