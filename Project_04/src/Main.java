@@ -1,4 +1,6 @@
+
 public class Main {
+
     public static void main(String[] args) {
         MyStack stack = new MyStack();
 
@@ -18,11 +20,18 @@ public class Main {
         System.out.println(stack.peek());
 
         // test pop
+        //        System.out.println("\n>>> pop students ra khỏi stack:");
+        //        while (!stack.isEmpty()) {
+        //            Student st = stack.pop();
+        //            System.out.println("pop: " + st);
+        //        }
+        System.out.println("\nSize: " + stack.size());
         System.out.println("\n>>> pop students ra khỏi stack:");
-        while (!stack.isEmpty()) {
-            Student st = stack.pop();
-            System.out.println("pop: " + st);
-        }
+        System.out.println(stack.pop());
+        System.out.println("\nSize: " + stack.size());
+        System.out.println("\n>>> clear stack:");
+        stack.clear();
+        System.out.println("\nSize: " + stack.size());
 
         // test stack rỗng
         System.out.println("\n>>> thử pop khi stack rỗng:");
