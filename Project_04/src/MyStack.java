@@ -65,9 +65,7 @@ public class MyStack {
     }
     
     public void clear(){
-        while (top!=null){
-            top = top.getNext();
-        }
-        count = 0;
+      top = null;
+      count =0;
     }
 }
