@@ -3,8 +3,8 @@
 // =========================================================
 
 class Node{
-    int info;
-    Node next;
+    private int info;
+    private Node next;
     
     // Default constructor (no parameter)
     Node () {}
@@ -19,6 +19,24 @@ class Node{
     Node (int x) {
         this(x,null);
     }
+
+    public int getInfo() {
+        return info;
+    }
+
+    public void setInfo(int info) {
+        this.info = info;
+    }
+
+    public Node getNext() {
+        return next;
+    }
+
+    public void setNext(Node next) {
+        this.next = next;
+    }
+    
+    
     
  }
 
