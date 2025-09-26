@@ -85,6 +85,9 @@ public class MyList {
         RandomAccessFile f = new RandomAccessFile(fname, "rw");
         //------------------------------------------------------------------------------------
         //------ Start your code here---------------------------------------------------------
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Input n: ");
+        int n=sc.nextInt();
         Node newNode = new Node(n);
         if (isEmpty()) {
             head = tail = newNode;
