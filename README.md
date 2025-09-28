@@ -41,7 +41,7 @@ Nội dung workshop ngày 26/09/2025 (Hội Trường)
 
 * Slot 1: https://youtu.be/ZcqKJ6DCs-U
 * Slot 2: https://youtu.be/KctpbvUouBo
-* Slot 3:
-* Slot 4:
+* Slot 3: -
+* Slot 4: https://youtu.be/4dCfWFaGwKw
 * Slot 5: https://youtu.be/toEin93Nl4Q
 * Slot 6: https://youtu.be/Xx761GiF0DA
