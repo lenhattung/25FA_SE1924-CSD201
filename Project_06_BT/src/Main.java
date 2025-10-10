@@ -31,11 +31,13 @@ public class Main {
 
         BinaryTree bt = new BinaryTree();
         bt.root = f;
-        System.out.println("Pre-Order Traversal:");
+        System.out.println("\nPre-Order Traversal:");
         bt.preOrder();
-        System.out.println("In-Order Traversal:");
+        System.out.println("\nIn-Order Traversal:");
         bt.inOrder();
-        System.out.println("Post-Order Traversal:");
+        System.out.println("\nPost-Order Traversal:");
         bt.postOrder();
+        System.out.println("\nBreadth Traversal:");
+        bt.breadth();
     }
 }

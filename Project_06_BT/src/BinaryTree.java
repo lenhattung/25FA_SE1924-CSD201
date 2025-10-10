@@ -17,13 +17,13 @@ public class BinaryTree {
 
     //void insert(int x)  {... }
     void visit(Node p) {
-        System.out.print(p.info+" ");
+        System.out.print(p.info + " ");
     }
 
-    void preOrder(){
+    void preOrder() {
         preOrder(root);
     }
-    
+
     void preOrder(Node p) {
         // root - left - right
         if (p == null) {
@@ -33,8 +33,8 @@ public class BinaryTree {
         preOrder(p.left);
         preOrder(p.right);
     }
-    
-    void inOrder(){
+
+    void inOrder() {
         inOrder(root);
     }
 
@@ -48,9 +48,10 @@ public class BinaryTree {
         preOrder(p.right);
     }
 
-    void postOrder(){
+    void postOrder() {
         postOrder(root);
     }
+
     void postOrder(Node p) {
         // left -right - root
         if (p == null) {
@@ -60,8 +61,27 @@ public class BinaryTree {
         preOrder(p.right);
         visit(p);
     }
+
+    void breadth() {
+        if (root == null) {
+            return;
+        }
+        MyQueue q = new MyQueue();
+        q.enqueue(root);
+        Node p;
+        while (!q.isEmpty()) {
+            p = (Node) q.dequeue();
+            if (p.left != null) {
+                q.enqueue(p.left);
+            }
+            if (p.right != null) {
+                q.enqueue(p.right);
+            }
+            visit(p);
+        }
+    }
+
 //    Node search(int x) {...}
 //    void deleteByMerging(int x) {...}
 //    void deleteByCopying(int x) {...}
-
 }
