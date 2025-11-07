@@ -1,0 +1,17 @@
+Line 0 - The next line is line 1  (f1)
+ A   B   C   D   E   F
+ 9   5   6   2   7   4
+ 1500   3000   5000   400   9000   7000
+Line 4 - The next line is line 5  (f2)
+ F16   Mic20   SU30   B52   T30
+ 9   	6   	8   	5    4
+ 8000  3000   5000    4000   9000
+Line 8 - The next line is line 9  (f3)
+ C   D   E   F   G   H
+ 9   2   8   1   5   6
+ 2000   5000   7000   6000   9000   4000
+Line 12 - The next line is line 13 (f4)
+ C   D   E   F   I   J   K
+ 7  12   6   5   4   3   2
+ 6000   5000  1100   4000   3000   2000   1000
+END

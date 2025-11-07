@@ -16,7 +16,7 @@ public class Project_09_Sort {
         Random rand = new Random();
         int[] arr = new int[size];
         for (int i = 0; i < size; i++) {
-            arr[i] = rand.nextInt(1_000_000); // giá trị ngẫu nhiên từ 0 đến 999,999
+            arr[i] = rand.nextInt(1000000); // giá trị ngẫu nhiên từ 0 đến 999,999
         }
         return arr;
     }
